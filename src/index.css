@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base{
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    color: #fff;
+    background-color: #000;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+    
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+}
+
+.texto-dourado{
+  color: #ff6009;
+}
+
+.hero h1,h2 {
+  text-shadow:
+    0 0 10px rgba(255, 100, 3, 0.4),
+    0 0 20px rgba(255, 108, 3, 0.29);
+
+   
+}
+
