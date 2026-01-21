@@ -20,11 +20,11 @@
   }
 }
 
-.texto-dourado{
+.texto-laranja{
   color: #ff6009;
 }
 
-.hero h1,h2 {
+.texto-laranja-shadow {
   text-shadow:
     0 0 10px rgba(255, 100, 3, 0.4),
     0 0 20px rgba(255, 108, 3, 0.29);
