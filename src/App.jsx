@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import PageFilmes from './pages/Filmes'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <NavBar />
       <Hero />
+      
     </div>
   )
 }

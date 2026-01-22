@@ -28,7 +28,29 @@
   text-shadow:
     0 0 10px rgba(255, 100, 3, 0.4),
     0 0 20px rgba(255, 108, 3, 0.29);
-
-   
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+/* ESTILIZACAO SCROLL-BAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff6009; 
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e55b00;
+}
