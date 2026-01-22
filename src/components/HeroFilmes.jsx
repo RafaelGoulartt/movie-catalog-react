@@ -31,14 +31,14 @@ function HeroFilmes() {
 
   const scrollLeft = () => {
     carouselRef.current.scrollBy({
-      left: -400,
+      left: -280,
       behavior: "smooth",
     });
   };
 
   const scrollRight = () => {
     carouselRef.current.scrollBy({
-      left: 400,
+      left: 280,
       behavior: "smooth",
     });
   };
@@ -49,7 +49,6 @@ function HeroFilmes() {
         FILMES POPULARES
       </h1>
 
-      {/* Container RELATIVE */}
       <div className="relative">
         <button onClick={scrollLeft} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-orange-500 text-white p-3 rounded-full hover:bg-black duration-300">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">

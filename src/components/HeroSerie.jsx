@@ -31,14 +31,14 @@ function HeroSeries() {
 
   const scrollLeft = () => {
     carouselRef.current.scrollBy({
-      left: -400,
+      left: -280,
       behavior: "smooth",
     });
   };
 
   const scrollRight = () => {
     carouselRef.current.scrollBy({
-      left: 400,
+      left: 280,
       behavior: "smooth",
     });
   };
