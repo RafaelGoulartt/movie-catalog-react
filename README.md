@@ -48,4 +48,4 @@ Este projeto utiliza a **TMDB (The Movie Database API)** para obter os dados dos
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/RafaelGoulartt/movie-catalog-react.git
