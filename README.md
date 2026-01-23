@@ -1,16 +1,51 @@
-# React + Vite
+# Catálogo de Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de catálogo de filmes desenvolvido em **React**, consumindo dados de uma **API de filmes** para exibição de informações como títulos, imagens, avaliações e descrições.
 
-Currently, two official plugins are available:
+Este projeto foi criado como um **desafio pessoal entre amigos**, com o objetivo de praticar e evoluir minhas habilidades em programação front-end, especialmente no consumo de APIs e na organização de componentes em React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Listagem de filmes populares
+- Exibição de detalhes dos filmes
+- Catálogo dinâmico consumindo dados de uma API
+- Interface moderna e responsiva
+- Navegação entre páginas
+- Layout estilizado com Tailwind CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- React
+- JavaScript (ES6+)
+- Vite
+- Tailwind CSS
+- API de filmes (TMDB)
+- HTML5
+- CSS3
+
+---
+
+##  API Utilizada
+
+Este projeto utiliza a **TMDB (The Movie Database API)** para obter os dados dos filmes.
+
+- Site oficial: https://www.themoviedb.org/
+- A API fornece informações como:
+  - Filmes populares
+  - Avaliações
+  - Imagens
+  - Descrição dos filmes
+
+>  Para utilizar a API, é necessário criar uma conta no TMDB e gerar uma **API Key**.
+
+---
+
+##  Como Rodar o Projeto Localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
