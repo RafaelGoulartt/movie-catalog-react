@@ -2,7 +2,7 @@ const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 const LANGUAGE = "pt-BR";
 
-console.log("API KEY:", import.meta.env.VITE_TMDB_API_KEY);
+// console.log("API KEY:", import.meta.env.VITE_TMDB_API_KEY);
 
 // URL base para imagens
 export const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";

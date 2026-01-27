@@ -59,7 +59,7 @@ function HeroSeries() {
 
         <div ref={carouselRef} className="flex gap-6 overflow-x-auto scrollbar-hide px-12">
           {series.map((serie) => (
-            <div key={serie.id} className="min-w-3xs bg-zinc-900 rounded-lg overflow-hidden hover:scale-105 duration-300 cursor-pointer">
+            <div key={serie.id} className="group relative min-w-3xs bg-zinc-900 rounded-lg overflow-hidden hover:scale-105 duration-300 cursor-pointer">
               <img
                 src={
                   serie.poster_path
@@ -69,6 +69,11 @@ function HeroSeries() {
                 alt={serie.name}
                 className="w-full"
               />
+              <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 duration-500 flex items-center justify-center text-sm">
+                <p className="line-clamp-6 text-center">
+                  {serie.overview || "Descrição não disponível"}
+                </p>
+              </div>
             </div>
           ))}
         </div>
